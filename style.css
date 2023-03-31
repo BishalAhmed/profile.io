@@ -738,6 +738,14 @@ padding: 18px 40px  ;
 
 }
 @media screen and (max-width:700px){
+    .box1 h2{ 
+        color: #20434b;
+        font-size: 40px;
+        line-height: 1.1em;
+        margin-bottom: .4em;
+        width: 70%;
+        z-index: 100;
+    }
     
     .section2{
         display: block;
