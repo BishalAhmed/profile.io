@@ -721,7 +721,7 @@ padding: 18px 40px  ;
      }
      .profile{
        top: 70px;
-        right: -40px;
+        right: 0px;
         
     
     }
@@ -852,6 +852,10 @@ header{
     }
 
 @media screen and (max-width:500px){
+
+
+
+
    
     .getbox{
         font-size: 26px;
