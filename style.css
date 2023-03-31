@@ -1,0 +1,940 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #6d8c94;
+}
+.big{
+    background: rgb(255, 255, 255);
+   
+margin: auto;
+margin: 30px auto ;
+ max-width: 1230px;
+min-height: 750px;
+border-radius: 10px;
+padding: 15px;
+}
+.headerandsection{
+   height: 70vh;
+   background: rgb(231,232,232);
+background: linear-gradient(162deg, rgba(231,232,232,1) 73%, rgba(218,158,121,0.22592787114845936) 93%);
+max-width: 1200px;
+margin: auto;
+border-radius: 10px;
+min-height: 550px;
+}
+header{
+    width: 100%;
+    height: 80px;
+    position: relative;
+   margin-bottom: 0px;
+}
+nav{
+    max-width: 1300px;
+    margin: auto;
+   padding: 0 50px;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    line-height: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #09576b;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+li{
+    display: inline-block;
+    line-height: 80px;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    padding: 12px 20px;
+    transition: .3s ease-in-out;
+   font-size: 16px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+li a:hover{
+    border-bottom: 2px solid #070707;
+}
+nav button{
+   height: 30px;
+    width: 90px;
+    margin-top: 20px;
+    border-radius: 50px;
+    outline: 0;
+    border: 0;
+    background-color: #fff;
+    transition: .05s;
+}
+nav button:hover{
+    background-color: #8d8d8d;
+}
+ .fa-bars{
+        font-size: 18px;
+        padding: 3px 18px;
+        background-color: #fff;
+        border-radius: 50px;
+        position: absolute;
+        top: 25px;
+        right: 120px;
+        display: none;
+    }
+#label{
+    display: none;
+}
+#check{
+    display: none;
+}
+.hero{
+    max-width: 1300px;
+    height: 600px;
+    margin: 40px auto;
+    width: 100%;
+    font-size: 20px;
+   background-size: cover;
+   background-position: center;
+   position: relative;
+   
+}
+
+.box1{
+    width: 60%;
+    font-size: 55px;
+    border-radius: 15px;
+    
+    font-family: arial;
+    margin: 10px 80px;
+    display: grid;
+    text-align: left;
+    align-items: left;
+    z-index: 100;
+}
+.box1 h2{ 
+    color: #20434b;
+    font-size: 55px;
+    line-height: 1.1em;
+    margin-bottom: .4em;
+    width: 70%;
+    z-index: 100;
+}
+.box1 p{ 
+    color: #6a6e6f;
+    font-size: 13px;
+    line-height: 20px;
+    z-index: 100;
+    word-spacing: 1px;
+    letter-spacing: 0.7px;
+}
+/* ....svg svg svg surer box */
+
+.svg{
+   
+    background: transparent;
+    word-spacing: 1px;
+    font-size: 15px;
+    color: #09576b;
+    text-align: center;
+    line-height: 15px;
+    display: inline-block;
+    position: absolute;
+    left: 2.5em;
+    z-index: 2;
+    top: 22em;
+}
+
+/* this is get started box */
+.getbox{
+    position: relative;
+    display: grid;
+    font-size: 40px;
+    background-color: #fff;
+    width: 13.7em ;
+    height: 1.625em;
+    margin-top: 1.5em;
+    z-index: 100;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+#get{
+    position: absolute;
+    right: 5px;
+    align-self: center;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    background-color: #335c63;
+    color: #fff;
+    letter-spacing: 0.5px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 10em;
+    height: 4em;
+    z-index: 100;
+}
+#get:hover{
+    background-color: #3c6c74;
+}
+.pbox{
+    position: absolute;
+    left:  30px;
+    align-self: center;
+    width: 200px;
+    height: 40px;
+    line-height: 5px;
+    margin: 0;
+    padding: 0;
+}
+.pbox .mail{
+    font-weight: bold;
+    color: #000000;
+}
+.profile{
+    width: 400px;
+    height: 400px;
+   
+    position: absolute;
+    right: 60px;
+    top: 0px;
+    /* background-color: #766c6c68;
+    border-radius: 50%; */
+
+}
+
+
+ .lear1{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 30px;
+    top: 60px;
+    margin: auto;
+    /* bottom: 0px; */
+    border-radius: 50%;
+    background-color: #fa5dff38;
+    z-index: 0;
+
+ }
+ .lear2{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 130px;
+    margin: auto;
+    right: 40px;
+    bottom: 0px;
+    
+    
+    border-radius: 50%;
+    background-color: #8beaff69;
+    z-index: 0;
+    
+ }
+ .mainlear{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    border: 3px solid rgba(47, 96, 156, 0.2);
+    background-repeat: no-repeat;
+    background-color: #dddedc;
+   background-image: url(img/IMG_16673938813786103.jpg);
+   background-position: center;
+  background-size: cover;
+    z-index: 60;
+    border-radius: 50%;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+
+ }
+  
+/* section 2 css section 2 css */
+
+
+.section2{
+    width: 100%;
+    min-height: 300px;
+    padding: 3vw 5vw;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   
+    
+}
+.section2box1{
+    width: 70%;
+    height: 250px;
+   
+    border-radius: 15px;
+    margin-top: 5px;
+   
+}
+.section2box1 h2{
+    padding: 10px 15px;
+    font-size: 2vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+
+}
+.imgdiv{
+    width: 100%;
+    height: 80%;
+   
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    
+
+}
+.section2box1 .img{
+    width: 220px;
+    height: 120px;
+    border-radius: 15px;
+    position: relative;
+    transition: .3s ease;
+   
+}
+.section2box1 .img:hover{
+    transform: scale(1.1);
+    
+}
+.section2box1 .img audio,
+.section2box3 .img audio,
+.section2box2 .img audio{
+    width: 60%;
+ left: 0;
+ right: 0;
+ margin: auto;
+    height: 30px;
+    position: absolute;
+    bottom: 2px;
+}
+.section2box1box1{
+    background-image: url(img/Couple\ In\ Love\ Walking\ On\ A\ Beautiful\ Autumn\ Alley\ In\ The\ Park\ Stock\ Image\ -\ Image\ of\ hands\,\ girl_\ 37240229.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+.section2box1box2{
+    background-image: url(img/ESG-finTech-ekko-offers-services-to-banks-and-payment-providers-696x464.jpg.webp.jpeg.webp);
+    background-position: center;
+    background-size: cover;
+    margin: 0 8px;
+    
+    
+}
+.section2box1box3{
+    background-image: url(img/photo-1672592785571-6f8d19ccfede.webp);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+
+
+
+.section2box2{
+    width: 25%;
+    height: 250px;
+    margin-top: 10px;
+    padding: 10px;
+  
+   border-radius: 20px;
+}
+
+.section2box2 h2{
+    font-size: 2vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.boxxx{
+    width: 100%;
+   
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    grid-template-rows: 25px 25px;
+    margin-bottom: 10px;
+    
+}
+.boxxx h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1vw;
+    margin-left: 10px;
+}
+.boxxx span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1vw;
+    color: #8d8d8d;
+    margin-left: 10px;
+
+}
+
+
+
+.cercle{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 2px solid black;
+    display: grid;
+    place-items: center;
+    grid-column: 1/2;
+    grid-row: 1/3;
+    transition: .2s ease;
+  
+}
+.cercle:hover{
+    background-color: #6d8c94;
+    color: #fff;
+
+}
+.cercle p{
+    font-size: 25px;
+
+}
+/* 
+Contact Form
+
+ Contact Form Contact Form Contact Form Contact FormContact FormContact FormContact FormContact FormContact Form*/
+
+ .contactform{
+    min-height: 800px;
+    width: 100%;
+   
+    
+    text-align: center;
+ }
+ .contactform h2{
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-weight: 400; */
+    color: #20434b;
+   
+    padding: 40px 0px;
+    
+ }
+ .contactbox{
+    min-height: 600px;
+    min-width: 80%;
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    
+ }
+ .contactbox .sendus{
+    width: 50%;
+   text-align: left;
+    min-height: 600px;
+    /* background: #E7E8E8; */
+    /* background: rgb(231,232,232);
+background: linear-gradient(162deg, rgba(231,232,232,1) 73%, rgba(218,158,121,0.22592787114845936) 93%); */
+background-color: #335c63;
+padding: 18px 40px  ;
+ }
+ .contactbox .sendus h3{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#f1f1f1 ;
+   
+    padding: 30px 0px  ;
+ }
+ form{
+    margin-top: 10px;
+ }
+ input{
+    width: 100%;
+    padding: 10px 10px 20px 0px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #b4b4b4;
+    color: #fff;
+ }
+ input:focus{
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    
+ }
+ textarea{
+    height: 150px;
+    width: 100%;
+    padding: 10px 10px 20px 0px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #b4b4b4;
+    color: #fff;
+ }
+ textarea::placeholder{
+    color: #fff;
+ }
+ input::placeholder{
+    color: #fff;
+ }
+ .submit{
+    height: 50px;
+    width: 120px;
+    border-bottom: none;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 5px 5px 5px 5px;
+    margin: 0;
+    background-color: #E7E8E8;
+    color: #09576b;
+    
+ }
+ .submit:hover{
+    background-color: #ffffff;
+ }
+ .contactbox .Contactus{
+    width: 50%;
+    
+    min-height: 600px;
+   text-align: left;
+   width: 50%;
+   
+    min-height: 600px;
+    
+padding: 18px 40px  ;
+
+ }
+ .Contactus h3{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    padding: 30px 0px 5px 0  ;
+    
+    
+ }
+ .Contactus p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #626161;
+    
+    padding: 15px 0px;
+
+ }
+ .gol{
+    height: 50px;
+    width: 50px;
+    border: 1px solid rgb(149, 149, 149);
+    border-radius: 50px;
+    display: grid;
+    place-items: center;
+    transition: .2s ease;
+   
+ }
+ .gol:hover{
+    background-color: #09576b;
+    color: #fff;
+ }
+ .add{
+    margin-top: 20px;
+ }
+  .address{
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    gap: 15px;
+  }
+  .address h4{
+    font-size: 14px;
+    line-height: 25px;
+    color: #4d4d4d;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  }
+  .address  span , .phone span , .email h4 span{
+    color: #000000;
+    font-weight: bold;
+
+  }
+  .phone , .email{
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    gap: 15px;
+    
+
+  }
+  .phone h4 , .email h4{
+    font-size: 14px;
+    line-height: 25px;
+    color: #4d4d4d;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-self: center;
+
+  }
+  .email h4 a{
+    text-decoration: none;
+    color: #4d4d4d;
+  }
+ 
+  .address , .phone , .email {
+    margin-bottom: 20px;
+  }
+
+
+@media screen and (max-width:1000px){
+.section2{
+    
+    padding: 3vw 2vw;
+   
+    
+}
+}
+@media screen and (max-width:900px){
+
+    .section2{
+        padding: 3vw 1vw;
+    }
+    
+    .hero{
+        margin: 20px auto;
+    }
+    .getbox{
+        font-size: 35px;
+    }
+    #get{
+        width: 9em;
+        height: 3.5em;
+    }
+    .svg{
+        left: .3em;
+        top: 20em;
+    }
+    ul {
+        display: none;
+       
+        border-radius: 50px;
+        position: absolute;
+        top: 80px;
+        right: 50px;
+        background-color: #fff;
+    }
+     li {
+       height: 40px;
+       line-height: 40px;
+       border-radius: 50px;
+    }
+     li :hover{
+        background-color: #e3e2e2;
+        border-radius: 50px;
+    }
+     li a {
+        font-size: 13px;
+    }
+    li a:hover{
+        border-bottom: none;
+    }
+    nav{
+       padding: 0 10px;
+    }
+    .big{   
+    margin: 0px auto ;
+    padding: 5px;
+    }
+    #label{
+        display: block;
+    }
+    #cheak:checked ~ nav ul{
+        display: block;
+    }
+    .box1{
+        margin: 10px 50px;
+    }
+    .box1 h2{ 
+        font-size: 50px;
+    }
+    .boxxx h4{
+        
+        font-size: 1.5vw;
+        margin-left: 10px;
+    }
+    .boxxx span{
+        
+        font-size: 1.5vw;
+        color: #8d8d8d;
+        margin-left: 10px;
+    
+    }
+    .section2box2{
+        margin: auto;
+        width: 25%;
+         
+          height: auto;
+          
+    }
+    
+    .section2box2 h2{
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+        font-size: 3vw;
+        margin-bottom: 15px;
+        padding-bottom: 15px;
+        
+    }
+    .section2box1 h2{
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+        margin-bottom: 15px;
+        padding-bottom: 15px;
+        font-size: 3vw;
+
+    }
+    .contactbox{
+        
+        width: 95%;
+       
+        
+     }
+}
+@media screen and (max-width:800px){
+    .contactbox{
+        flex-direction: column;
+        width: 90%;
+        gap: 20px;
+       margin-bottom: 100px;
+     }
+     .contactbox .sendus{
+        width: 100%;
+    
+    padding: 18px 40px  ;
+     }
+     .contactbox .Contactus{
+        width: 100%;
+        
+    
+     }
+     .profile{
+       top: 70px;
+        right: -40px;
+        
+    
+    }
+    .hero{
+       position:static;
+    }
+}
+@media screen and (max-width:650px){
+    .mainlear{
+       display: none;
+         
+     
+     }
+
+}
+@media screen and (max-width:700px){
+    
+    .section2{
+        display: block;
+       
+    }
+    .section2box1{
+        width: 100%;
+        
+    }
+    
+    
+
+
+    .section2box2{
+        margin: auto;
+        width: 100%;
+         
+          height: auto;
+          
+    }
+    
+    .section2box2 h2{
+        text-align: center;
+        font-size: 4.5vw;
+        
+    }
+    .section2box1 h2{
+        text-align: center;
+        font-size: 4.5vw;
+
+    }
+    .boxxxcont{
+        width: 100%;
+        
+        height: 60px;
+        display: flex;
+
+    }
+    .boxxx{
+        display: grid;
+        grid-template-columns: 40px 1fr;
+        grid-template-rows: 20px 20px;
+        margin-bottom: 5px;
+        width: 220px;
+        gap: 2px;
+        
+    }
+    
+    .boxxx h4{
+        font-size: 2vw;
+    }
+    .boxxx span{
+        font-size: 2vw;
+    }
+    
+    .cercle{
+        width: 40px;
+        height: 40px;
+        border-radius: 50px;
+       
+      
+    }
+    .cercle p{
+        font-size: 20px;
+    
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+@media screen and (max-width:600px){
+    .hero{
+        margin: 10px auto;
+    }
+   .box1{
+    margin: 0 10px ;
+    width: 100%;
+   }
+   .getbox{
+    font-size: 30px;
+}
+#get{
+    width: 8em;
+    height: 3.2em;
+}
+.svg{
+    left: .1em;
+    top: 19em;
+}
+header{
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+    width: 100%;
+    position: relative;
+}
+    }
+
+@media screen and (max-width:500px){
+   
+    .getbox{
+        font-size: 26px;
+    }
+    #get{
+        width: 7em;
+        height: 2.7em;
+    }
+    .svg{
+        left: .1em;
+        top: 22em;
+    }
+    .section2box2{
+        height: auto;
+    }
+    
+    .section2box2 h2{
+        font-size: 6vw;
+        padding-bottom: 15px;
+        margin-bottom: 30px;
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+    }
+    .boxxxcont{
+        width: 100%;
+        height: auto;
+        display: block;
+     }
+    .boxxx{
+        display: grid;
+        grid-template-columns: 50px 1fr;
+        grid-template-rows: 25px 25px;
+        margin-bottom: 5px;
+        width: 100%;
+        gap: 2px;
+        padding: 5px
+    }
+    
+    .boxxx h4{
+        font-size: 4vw;
+    }
+    .boxxx span{
+        font-size: 3vw;
+    }
+    
+    .cercle{
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+      
+    }
+    .cercle p{
+        font-size: 20px;
+    
+    }
+
+
+    .section2box1{
+        width: 100%;
+        height: auto;
+        
+        border-radius: 15px;
+        margin-top: 5px;
+    }
+    .section2box1 h2{
+       text-align: center;
+        font-size: 4vw;
+    }
+    .imgdiv{
+        width: 100%;
+        height: auto;
+        display: block;
+        padding: 5px;
+    }
+    .section2box1 .img{
+        width: 90%;
+        height: 150px;
+        margin: 20px auto;
+       
+    }
+
+
+
+
+    
+
+}
